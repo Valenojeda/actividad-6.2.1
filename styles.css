@@ -7,16 +7,32 @@ body {
     border-radius: 10px;
     height: 400px;
     max-width: 100%; /* Asegura que la imagen no exceda el ancho del contenedor */
-}
+    position: relative;
+    display: block}
 
-.link-button {
+    .item {
+        position: relative;
+    }
+
+.flechas {
+    display: flex;
+    align-items: center;
+    height: 400px; 
+    width: 600px; 
+    position: absolute; 
+    top: 0; 
+    left: 0;
+    justify-content: space-between;
+    padding: 20px;
+}
+    
+.flecha {
+    font-size: 24px;
     text-decoration: none;
-    color: black;
-    border: 1px solid gray;
-    background-color: #f2f2f2;
-    padding: 5px;
-    border-radius: 5px;
-    box-shadow: 2px 3px #888888;
+    color: whitesmoke;
+    cursor: pointer; /* Para indicar que es clickable */
+    padding-right: 30px;
+    padding-left: 0;
 }
 
 .container {
