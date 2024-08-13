@@ -2,6 +2,11 @@ body {
     background-color: rgb(255, 255, 165);
 }
 
+h1 {
+    text-align: center;
+    font-size: 60px;
+}
+
 .image{
     border: 5px solid green;
     border-radius: 10px;
@@ -55,3 +60,11 @@ body {
     flex: 1; /* Toma espacio proporcional en la fila */
 }
 
+
+
+
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+}
