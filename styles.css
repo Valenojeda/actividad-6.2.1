@@ -6,6 +6,7 @@ body {
     border: 5px solid green;
     border-radius: 10px;
     height: 400px;
+    max-width: 100%; /* Asegura que la imagen no exceda el ancho del contenedor */
 }
 
 .link-button {
@@ -31,14 +32,10 @@ body {
 
 .text-column {
     flex: 1; /* Toma espacio proporcional en la fila */
-    margin-right: 20px; /* Espacio entre la columna de texto y la imagen */
+    margin-right: 60px; /* Espacio entre la columna de texto y la imagen */
 }
 
 .image-column {
     flex: 1; /* Toma espacio proporcional en la fila */
 }
 
-.image {
-    max-width: 100%; /* Asegura que la imagen no exceda el ancho del contenedor */
-    height: auto; /* Mantiene la relación de aspecto de la imagen */
-}
