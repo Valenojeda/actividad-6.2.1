@@ -6,7 +6,7 @@ body {
     border: 5px solid green;
     border-radius: 10px;
     height: 400px;
-    max-width: 100%; /* Asegura que la imagen no exceda el ancho del contenedor */
+    width: 600px;
     position: relative;
     display: block}
 
@@ -48,10 +48,11 @@ body {
 
 .text-column {
     flex: 1; /* Toma espacio proporcional en la fila */
-    margin-right: 60px; /* Espacio entre la columna de texto y la imagen */
+    margin-left: 50px; /* Espacio entre la columna de texto y la imagen */
 }
 
 .image-column {
     flex: 1; /* Toma espacio proporcional en la fila */
 }
 
+/*altura 400px , ancho 600px paraimgy */
