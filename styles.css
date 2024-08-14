@@ -1,5 +1,12 @@
 body {
-    background-color: rgb(255, 255, 165);
+    background-color: rgb(25, 66, 144);
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    color: whitesmoke;
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
 }
 
 .image{
@@ -55,4 +62,5 @@ body {
     flex: 1; /* Toma espacio proporcional en la fila */
 }
 
-/*altura 400px , ancho 600px paraimgy */
+
+
